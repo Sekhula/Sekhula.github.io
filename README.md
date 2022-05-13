@@ -2,7 +2,7 @@
 
 A portfolio website template for campers
 
-![jane-doe](jane-shot.png)
+<!-- ![jane-doe](jane-shot.png) -->
 
 ## Author
 
@@ -18,7 +18,7 @@ A live demo is already available via this [link](https://eager-williams-af0d00.n
 
 ## Tech Stack
 
-**Client:** HTML, CSS, Vanilla JavaSCript
+**Client:** HTML, CSS, Vanilla JavaSCript 
 
 ## Tools Used
 
