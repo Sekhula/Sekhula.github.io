@@ -427,3 +427,9 @@ footer {
     max-width: 17.75rem;
   }
 }
+
+img {
+  border-radius: 50%;
+  height: 50%;
+  width: 40%;
+}
