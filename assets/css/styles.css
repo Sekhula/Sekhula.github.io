@@ -70,11 +70,6 @@ body {
 
 }
 
-section {
-  /* max-width: 1100px;
-  margin: auto; */
-}
-
 /* CSS Resets end */
 
 /* Navbar */
@@ -261,7 +256,7 @@ nav ul li {
   margin: 0 auto;
   padding: 0.938rem;
   border-radius: 5px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
+  box-shadow: 0 3px 10px #6bd3c9;
   /* background-color: white; */
 }
 
