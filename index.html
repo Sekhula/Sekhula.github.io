@@ -12,13 +12,13 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/icons/apple-touch-icon.png"
+      href="assets/icons/forgive.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/icons/favicon-32x32.png"
+      href="assets/icons/forgive.png"
     />
 
     <!-- Animate CSS CDN -->
@@ -29,61 +29,65 @@
     <title>Tebalelo Sekhula | Web Developer</title>
   </head>
 
-  <body>
-    <!-- Navbar -->
-    <nav>
-      <h1>Tebalelo Sekhula</h1>
-      <ul class="navigation">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-      <button class="burger-menu" id="burger-menu">
-        <ion-icon class="bars" name="menu-outline"></ion-icon>
-        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
-      </button>
-    </nav>
+  <!-- <header>
     
-    <!-- <p> 0024 </p> -->
-    <br>
-    <!-- Hero Section -->
-    <section class="hero" id="about">
-      <svg width="10" height="10">
-        <!-- <img src="assets/images/me.jpeg" alt=""/> -->
-          <img src="assets/images/me.jpeg" alt="tebalelo-sekhula" class="hero-img"/>
-        <!-- <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" /> -->
-      </svg>
-      <!-- <img
-        src="assets/images/me.jpeg"
-        alt="tebalelo-sekhula"
-        class="hero-img"
-      /> -->
-      <div class="bio animate__animated animate__shakeX">
-        <h2 class="bio-title">About Me</h2>
-        <p class="bio-text">
-          I am well...
+  </header> -->
+
+  <body class="bg-blue"> 
+        <!-- Navbar -->
+        <nav class="bg-light">
+          <h1 class="text-blue">Tebalelo Sekhula</h1>
+          <ul class="navigation">
+            <li><a href="#about" class="nav-link text-blue">About</a></li>
+            <li><a href="#skills" class="nav-link text-blue">Skills</a></li>
+            <li><a href="#projects" class="nav-link text-blue">Projects</a></li>
+            <li><a href="#contact" class="nav-link text-blue">Contact</a></li>
+          </ul>
+          <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+          </button>
+        </nav>
+
+    <!-- Developer's Section -->
+    <div class="hero bg-blue" id="about">
+      <div class="grid-container">
+        <div class="grid-item pos-item">
+          <div class="bio animate__animated animate__shakeX border-lime text-lime">
+            <h3 class="bio-title text-light">Bio</h3>
+            <p class="bio-text">
+              Greetings ladies & gentlemens, my name is Forgiveness, and I'm  a full stack developer.
+            </p>
+          </div>
+        </div>
+        <div class="grid-item pos-item">
+          <svg width="10" height="10">
+              <img src="assets/images/Forgive.png" 
+               alt="tebalelo-sekhula" class="hero-img"/>
+          </svg>
+        </div>  
+      </div>
+    </div>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2 class="text-light">More About Me</h2>
+      <div class="row mid-footer" style="text-align: center;">
+        <p class="about-pos">
+          In December 2021 I had my first role as a developer intern at the <Strong>Digital Academy in Johannesburg</Strong>, 
+          South Africa. The Digital Academy internship programme is designed to create opportunities for youth through incentive-based learning with strategic corporate partners.
+        </p>
+        <p>
+          Work well under pressure.
+        </p>
+        <p>
+          Critical thinker.
         </p>
       </div>
     </section>
 
-    <!-- More about -->
-    <section class="more-about">
-      <h2>More About Me</h2>
-      <p>
-        .....
-      </p>
-      <p>
-        .....
-      </p>
-      <p>
-        .....
-      </p>
-    </section>
-
     <!-- Skills section -->
     <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
+      <h2 class="skill-header text-light">Skills</h2>
 
       <div class="skills-wrapper">
         <div class="first-set animate__animated animate__pulse">
@@ -91,19 +95,19 @@
             src="assets/icons/icons8-html-5.svg"
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            class="icon icon-card shadow-hover"
           />
           <img
             src="assets/icons/icons8-css3.svg"
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            class="icon icon-card shadow-hover"
           />
           <img
             src="assets/icons/icons8-javascript.svg"
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            class="icon icon-card shadow-hover"
           />
         </div>
 
@@ -112,13 +116,13 @@
             src="assets/icons/icons8-bootstrap.svg"
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            class="icon icon-card shadow-hover"
           />
           <img
             src="assets/icons/icons8-git.svg"
             alt=""
             loading="lazy"
-            class="icon icon-card"
+            class="icon icon-card shadow-hover"
           />
         </div>
       </div>
@@ -126,35 +130,34 @@
 
     <!-- Projects section -->
     <section class="projects" id="projects">
-      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <h2 class="projects-title text-light">Some of my Recent Projects</h2>
       <div class="projects-container">
-        <div class="project-container project-card">
+        <div class="project-card">
           <img
-            src="assets/images/expenseTracker.png"
+            src="assets/images/EduApp.png"
             alt="expense-tracker"
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Expense Tracker</h3>
-          <p class="project-details">
-            ...................
+          <h3 class="project-title text-lime">Edu App</h3>
+          <p class="project-details text-light">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, iste.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="https://edu-app-inc.herokuapp.com/home/" target="_blank" class="project-link">Check it Out</a>
         </div>
-        <div class="project-container project-card">
+        <div class="project-card">
           <img
             src="assets/images/netflixClone.png"
             alt="netflic-clone"
             loading="lazy"
             class="project-pic"
           />
-          <!-- <h3 class="project-title">Netflix Clone</h3> -->
           <p class="project-details">
-            ...................
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
           <a href="#" target="_blank" class="project-link">Check it Out</a>
         </div>
-        <div class="project-container project-card">
+        <div class="project-card">
           <img
             src="assets/images/greenyEarth.png"
             alt="greeny-earth"
@@ -163,7 +166,7 @@
           />
           <h3 class="project-title">Greeny Earth</h3>
           <p class="project-details">
-            ........................
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, eius!
           </p>
           <a href="#" target="_blank" class="project-link">Check it Out</a>
         </div>
@@ -198,17 +201,6 @@
                 required
               />
             </div>
-            <!-- <p>contact works!</p> -->
-            <!-- <form action="https://formsubmit.co/forgivetibi@gmail.com" method="POST">
-                <label for="Message">Enter Message for me </label>
-                <input type="text" name="name" required>
-                <br>
-                <br>
-                <label for="Email">Please enter your email address</label>
-                <input type="email" name="email" required>
-                <br>
-                <button type="submit">Send</button>
-            </form> -->
 
             <div class="form-control">
               <label for="message">Message</label>
@@ -245,7 +237,7 @@
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="#" target="_blank"
+      <a href="https://github.com/Sekhula" target="_blank"
         ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
       /></a>
     </div>
