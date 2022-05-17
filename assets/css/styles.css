@@ -176,6 +176,7 @@ nav ul li {
 
 .more-about p {
   line-height: var(--line-height);
+  margin: auto;
   /* padding: 0.4rem; */
 }
 /* More about ends */
@@ -463,7 +464,7 @@ footer {
 }
 
 .about-pos {
-  width: 60%;
+  width: 50%;
 }
 
 .grid-container {
