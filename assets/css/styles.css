@@ -264,7 +264,7 @@ nav ul li {
 .contact-form-container label {
   line-height: 2.7em;
   font-weight: var(--bold-font);
-  color: var(--primary-color);
+  color: #007bff;
 }
 
 .contact-form-container textarea {
@@ -407,9 +407,11 @@ footer {
     transform: translateX(0);
   }
 
-  .hero img {
-    /* height: 37.5rem;
-    width: 30rem; */
+  .hero-img {
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+    background-color: #c8d6ef;
   }
 
   .bio {
@@ -461,6 +463,13 @@ footer {
   .contact-form-container {
     max-width: 17.75rem;
   }
+
+  .hero-img {
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+    background-color: #c8d6ef;
+  }
 }
 
 .about-pos {
@@ -484,5 +493,12 @@ footer {
     display: flex;
     flex-direction: column;
     text-align:center;
+  }
+
+  .hero-img {
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+    background-color: #c8d6ef;
   }
 }
